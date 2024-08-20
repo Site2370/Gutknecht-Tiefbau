@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+        <link rel="icon" href="img/icons/Ellipse 5.png">
+    <title>Tiefbau & Erdarbeiten in Deutschland | Ihr Experte für Bauprojekte</title>
+    <meta name="description" content="Professionelle Tiefbau- und Erdarbeiten in Deutschland. Unser Bauunternehmen bietet umfassende Leistungen im Kanalbau, Aushub und Straßenbau. Kontaktieren Sie uns für Ihr nächstes Bauprojekt.">
+    <meta name="keywords" content="tiefbau, erdarbeiten, bauunternehmen, kanalbau, aushubarbeiten, straßenbau, bodenstabilisierung, deutschland, Neuwied">
+</head>
+
+<body>
+    <div class="body-wrapper">
+
+    <div id="overlay"></div>
+
+    <section class="contact-form">
+        <button id="closeFormButton" style="display: none;"></button>
+        <h3>Kontaktieren Sie uns</h3>
+        <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="f33edcef-1d45-4c3a-8d08-e8f376dd4a0a">
+
+            <label for="name">Name</label>
+            <img src="img/icons/user.png" alt="">
+            <input type="text" id="name" name="name" placeholder="Geben Sie Ihren Namen ein" required>
+
+            <label for="email">E-Mail</label>
+            <img src="img/icons/mail.png" alt="">
+            <input type="email" id="email" name="email" placeholder="ihremail@gmail.com" required>
+
+            <label for="phone">Telefon</label>
+            <img src="img/icons/phone.png" alt="">
+            <input type="tel" id="phone" name="phone" placeholder="+49 (111) 11111111">
+
+            <label for="message">Nachricht</label>
+            <img src="img/icons/message.png" alt="">
+            <textarea id="message" name="message" placeholder=" Ihre Nachricht" required style="height: 127px;"></textarea>
+            <div><button type="submit">Senden Sie</button>
+            </div>            
+        </form>
+    </section>
+
+        <header class="header">
+            <div class="container">
+                <div class="navigation">
+
+                    <div class="header-left"><a href="index.html" class="title"><h1>Tiefbau</h1></a></div>
+
+                    <div class="header-right">
+
+                        <div class="header-menu">
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#directions">Arbeitsart</a></li>
+                                <li><a href="#about-us">Über uns</a></li>
+                                <li><a href="#contacts">Kontakte</a></li>
+                            </ul>
+                        </div>
+                        <button class="header_burger_btn" id="burger">
+                            <span></span><span></span><span></span>
+                        </button>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+
+        <main>
+
+            <section class="home-page" id="home">
+                <div class="container">
+                    <div class="title">
+                        <span class="title-span">Zutiefst</span> <br><span class="title-span two">Zuverlässig</span>
+                        <br><span class="title-span three">Professionell</span>
+                    </div>
+
+
+                    <div class="slogan-wrapper">
+                        <div class="slogan">
+                            <p>
+                                Beginnen Sie Ihr Projekt <br>
+                                mit uns - Profis in Tiefbau
+                            </p>
+                        </div>
+                        <button class="btn showFormButton">Bewerbung abgeben</button>
+                    </div>
+                    <img src="img/Vector.png" alt="" class="arrow">
+
+
+                </div>
+            </section>
+
+            <section class="directions" id="directions">
+                <div class="container">
+
+                    <div class="directions-title">
+                        <p>Unsere</p>
+                        <p>Hauptrichtungen</p>
+                    </div>
+
+                    <div class="btn-and-block">
+                        <div class="services">
+                            <div class="btn-list">
+                                <button class="btn btnn active-btn" data-direction="0">Erdarbeit</button>
+                                <button class="btn btnn" data-direction="1">Verlegung der Kommunikation</button>
+                                <button class="btn btnn" data-direction="2">Drainagesystem</button>
+                                <button class="btn btnn" data-direction="3">Straßenbau</button>
+                            </div>
+                        </div>
+
+                        <div class="directions-blok">
+                            <div class="direction-img">
+                                <img src="img/Erdarbeit.png" alt="Erdarbeit" id="direction-img">
+                            </div>
+                            <div class="direction-description">
+
+                                <p class="direction-description-title" id="direction-title">Erdarbeit</p>
+                                <p id="direction-text">
+                                    Erdarbeiten sind die Grundlage eines jeden Bauprojekts. Wir bieten ein umfassendes
+                                    Angebot an Dienstleistungen für die Vorbereitung und Bearbeitung von Grundstücken
+                                    für die anschließende Bebauung.
+                                </p>
+
+                                <button class="btn direction-description-btn showFormButton">Bewerbung abgeben</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="gallery" class="gallery-container">
+                <h2>Unsere Galerie</h2>
+                <div class="gallery">
+                    <a href="img/1.jpg">
+                        <div class="gallery-item">
+                            <img src="img/1.jpg" alt="Werkzeuge zum Verlegen von Fliesen">
+                        </div>
+                    </a>
+                    <a href="img/2.jpg">
+                        <div class="gallery-item">
+                            <img src="img/2.jpg" alt="Fliese">
+                        </div>
+                    </a>
+                    <a href="img/3.jpg">
+                        <div class="gallery-item">
+                            <img src="img/3.jpg" alt="Mitarbeiterteam">
+                        </div>
+                    </a>
+                    <a href="img/4.jpg">
+                        <div class="gallery-item">
+                            <img src="img/4.jpg" alt="Drainagesystem">
+                        </div>
+                    </a>
+                    <a href="img/8.jpg">
+                        <div class="gallery-item">
+                            <img src="img/8.jpg" alt="Verlegung der Kommunikation">
+                        </div>
+                    </a>
+                    <a href="img/10.jpg">
+                        <div class="gallery-item">
+                            <img src="img/10.jpg" alt="Geländenivellierung">
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <section class="about" id="about-us">
+                <div class="container">
+                    <div class="about-title">
+                        <h2>Über unser</h2>
+                        <h2>Unternehmen</h2>
+                    </div>
+                    <div class="about-us">
+
+                        <div class="about-us-text">
+                            <p>
+                                Wir sind ein Team von Tiefbauprofis, das alle Phasen der Erd- und Gründungsarbeiten in
+                                hoher Qualität ausführt. Unser Ziel ist es, ein solides und zuverlässiges Fundament für
+                                jedes Bauprojekt zu schaffen.
+                            </p>
+                        </div>
+                        <div class="about-us-photo">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="why-us">
+                <div class="container">
+                    <h2>Unsere wichtigsten Vorteile</h2>
+                    <div class="advantages">
+                        <div class="advantage">
+                            <div class="icon">🎓</div>
+                            <h3>Professionalität</h3>
+                            <p>erfahrene und qualifizierte Fachleute</p>
+                        </div>
+                        <div class="advantage">
+                            <div class="icon">🤖</div>
+                            <h3>Moderne Technik</h3>
+                            <p>Wir verwenden die neuesten Geräte und Technologien</p>
+                        </div>
+                        <div class="advantage">
+                            <div class="icon">🔑</div>
+                            <h3>Individualität</h3>
+                            <p>Wir gehen auf alle Wünsche und Besonderheiten ein</p>
+                        </div>
+                        <div class="advantage">
+                            <div class="icon">💎</div>
+                            <h3>Qualität</h3>
+                            <p>hohe Qualität der Arbeitsleistung und Einhaltung der Fristen</p>
+                        </div>
+                        <div class="advantage">
+                            <div class="icon">🔒</div>
+                            <h3>Sicherheit</h3>
+                            <p>Strenge Einhaltung von Normen und Sicherheitsstandards</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contacts" id="contacts">
+                <div class="container">
+                    <div class="contact-section">
+                        <div class="contact-details">
+                            <h2>Kontakte</h2>
+                            <p>Insterburgerstr 1<br>56564 Neuwied</p>
+                            <a href="tel:+4915758496203">+49-15758-496203</a>
+                            <a href="mailto:deg.montagebau@gmail.com">deg.montagebau@gmail.com</a>
+                            <button class="btn showFormButton">Bewerbung Abgeben</button>
+                        </div>
+                        <div class="map">
+                            <img src="../tiefbau/img/map.png" alt="Map of Neuwied">
+                            <p class="map-attribution">Karte zur Verfügung gestellt von © Google</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div>
+                    <a href="#home">Home</a>
+                    <a href="#directions">Arbeitsart</a>
+                    <a href="#about-us">Über uns</a>
+                </div>
+                <div>
+                    <p>© Den Namen Oder Titel Des Rechtsinhabers 2024</p>
+                </div>
+            </footer>
+        </main>
+
+
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/button.js"></script>
+</body>
+
+</html>

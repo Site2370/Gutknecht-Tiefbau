@@ -1,0 +1,21 @@
+# Licenses for icons used in this project
+
+## teenyicons: message-text-alt-outline
+- License: MIT
+- Author: Teenyicons
+- Source: https://github.com/teenyicons/teenyicons
+
+## ph: user-thin
+- License: MIT
+- Author: Phosphor Icons
+- Source: https://github.com/phosphor-icons/core
+
+## ph: phone-light
+- License: MIT
+- Author: Phosphor Icons
+- Source: https://github.com/phosphor-icons/core
+
+## fluent: mail-32-light
+- License: MIT
+- Author: Microsoft
+- Source: https://github.com/microsoft/fluentui-system-icons
